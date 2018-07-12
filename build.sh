@@ -2,6 +2,7 @@
 
 # Pull latest git
 git pull --recurse-submodules
+git submodule update --init --recursive
 
 # Build Dependency(GLSLang) first
 BUILD_DIRECTORY=./glslang/build
